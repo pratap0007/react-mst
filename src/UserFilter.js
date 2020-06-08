@@ -4,9 +4,18 @@ import { StoreContext } from "./store/store";
 export const UserFilter = () => {
   const store = React.useContext(StoreContext);
   const filter = [];
+
+
+ 
+
   return (
     <div>
       <h3>Filter: </h3>
+      <button id="bx" type='submit' onClick={console.warn('button fired')}>
+          test
+
+      </button>
+
       <div
         onChange={(e) => {
           if (

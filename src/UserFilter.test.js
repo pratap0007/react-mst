@@ -37,15 +37,16 @@ it("should render banner text correctly with given strings", () => {
       <UserFilter />
     </StoreProvider>
   );
+const mockCallBack = jest.fn();
 
   // component.find('input[name="options"]').at(1).simulate("click");
   // var checkbox = () => component.find('input[type="radio"]').at(1);
-  component
-    .find('input[type="checkbox"]')
-    .at(0)
-    .simulate("change", { target: { checked: true } });
-
-  expect(component).toMatchSnapshot();
+  component.find('#bx').simulate('click')
+  // component
+  //   .find('input[type="checkbox"]')
+  //   .at(0)
+  //   .simulate('change', { target: { defaultChecked: true } });
+  // expect(component).toMatchSnapshot();
   console.log(store.count);
   const list = store.userList;
   console.log(list[0].name);

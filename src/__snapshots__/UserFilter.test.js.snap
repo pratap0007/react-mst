@@ -5,6 +5,12 @@ exports[`<UserFilter /> should render correctly 1`] = `
   <h3>
     Filter: 
   </h3>
+  <button
+    id="bx"
+    type="submit"
+  >
+    test
+  </button>
   <div
     onChange={[Function]}
   >
@@ -58,5 +64,3 @@ exports[`<UserFilter /> should render correctly 1`] = `
   </div>
 </div>
 `;
-
-exports[`should render banner text correctly with given strings 1`] = `ReactWrapper {}`;

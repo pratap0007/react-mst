@@ -157,6 +157,12 @@ Array [
             <h3>
               Filter: 
             </h3>
+            <button
+              id="bx"
+              type="submit"
+            >
+              test
+            </button>
             <div
               onChange={[Function]}
             >
@@ -481,6 +487,12 @@ Array [
             <h3>
               Filter: 
             </h3>
+            <button
+              id="bx"
+              type="submit"
+            >
+              test
+            </button>
             <div
               onChange={[Function]}
             >
